@@ -2,9 +2,11 @@
 {
     'name': 'Reservas de Paquetes Turisticos',
     'version': '1.0',
-    'summary': 'Reserva y venta de paquetes turisticos integrados con Website, Ecommerce, Facturacion y Portal',
+    'summary': 'Gestion básica de reservas de paquetes turísticos sin integración con Website ni Ecommerce',
     'description': """
-Gestiona reservas y ventas de paquetes turisticos, integrando catalogo, reservas, pagos y portal de clientes.
+Permite gestionar reservas de paquetes turísticos de forma sencilla. Aún no integra catálogo en línea ni comercio electrónico.
+
+Para conocer el plan de integración futura con Website y Ecommerce consulte `docs/website_ecommerce_integration.md`.
 """,
     'author': 'Desarrollador IA - Odoo 18 CE',
     'website': 'http://localhost:8069',
