@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_tour_booking_tree" model="ir.ui.view">
+            <field name="name">tour.booking.tree</field>
+            <field name="model">tour.booking</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="notes"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_tour_booking_form" model="ir.ui.view">
+            <field name="name">tour.booking.form</field>
+            <field name="model">tour.booking</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="notes"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <menuitem id="menu_tour_booking_root" name="Reservas Turismo"/>
+        <menuitem id="menu_tour_booking" name="Reservas" parent="menu_tour_booking_root"/>
+        <act_window id="action_tour_booking"
+                    name="Reservas"
+                    res_model="tour.booking"
+                    view_mode="tree,form"
+                    menu_id="menu_tour_booking"/>
+    </data>
+</odoo>
