@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Reservas de Paquetes Turisticos',
+    'name': 'Reservas de Paquetes Turísticos',
     'version': '1.0',
     'summary': 'Gestion básica de reservas de paquetes turísticos sin integración con Website ni Ecommerce',
     'description': """
