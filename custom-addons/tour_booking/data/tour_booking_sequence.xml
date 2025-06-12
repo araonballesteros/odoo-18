@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <record id="seq_tour_booking" model="ir.sequence">
-            <field name="name">Reserva de paquete turistico</field>
+            <field name="name">Reserva de paquete turístico</field>
             <field name="code">tour.booking</field>
             <field name="prefix">RES-%(year)s-</field>
             <field name="padding">5</field>

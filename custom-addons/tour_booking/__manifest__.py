@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Reservas de Paquetes Turisticos',
+    'name': 'Reservas de Paquetes Turísticos',
     'version': '1.0',
-    'summary': 'Reserva y venta de paquetes turisticos integrados con Website, Ecommerce, Facturacion y Portal',
+    'summary': 'Reserva y venta de paquetes turísticos integrados con Website, Ecommerce, Facturacion y Portal',
     'description': """
-Gestiona reservas y ventas de paquetes turisticos, integrando catalogo, reservas, pagos y portal de clientes.
+Gestiona reservas y ventas de paquetes turísticos, integrando catalogo, reservas, pagos y portal de clientes.
 """,
     'author': 'Desarrollador IA - Odoo 18 CE',
     'website': 'http://localhost:8069',
